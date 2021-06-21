@@ -19,7 +19,7 @@ def play():
     currentword = " ".join([letter if letter in guessed else "-" for letter in word])
 
     lives = 5
-    print(f"Let's start the game! you have to guess the following word, and you have only {lives}!")
+    print(f"Let's start the game! you have to guess the following word, and you have only {lives} lives!")
     print (currentword)
 
     while len(wordletters) > 0 and lives > 0 :
